@@ -1,7 +1,8 @@
 # To run a dev server run in two terminal windows:
 
-npm run server
-npm start
+#### npm run server
+
+#### npm start
 
 # Getting Started with Create React App
 
