@@ -11,18 +11,6 @@
       "text": "Meeting at School",
       "day": "Feb 23th at 19:00am",
       "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Food Shopping",
-      "day": "Feb 1th at 12:45pm",
-      "reminder": false
-    },
-    {
-      "text": "grae 2 ",
-      "day": "grae 2",
-      "reminder": true,
-      "id": 5
     }
   ]
 }

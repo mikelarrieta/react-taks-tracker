@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 import Button from './Button';
 
 const Header = ({ title, onAdd, showAdd }) => {
-
     const location = useLocation();
 
     return (
@@ -16,7 +15,7 @@ const Header = ({ title, onAdd, showAdd }) => {
                 onClick={onAdd} />
             )}
         </header>
-    ) 
+    );
 }
 
 Header.defaultProps = {
@@ -26,11 +25,5 @@ Header.defaultProps = {
 Header.propTypes = {
     title: PropTypes.string.isRequired,
 };
-
-// CSS in JS
-// const headingStyle = {
-//     color: 'red', 
-//     backgroudColor: 'black',
-// };
 
 export default Header;
